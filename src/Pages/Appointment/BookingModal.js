@@ -11,6 +11,8 @@ const BookingModal = ({ treatment, date, setTreatment }) => {
 
 
         console.log(_id, email, name, slot)
+
+        //for close modal
         setTreatment(null)
     }
     return (
