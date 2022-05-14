@@ -13,9 +13,9 @@ const AppointmentBanner = ({ date, setDate }) => {
             background: `url(${bgImage})`,
             backgroundSize: "cover"
         }}
-            class="hero min-h-screen  mt-0 ">
-            <div class="hero-content flex-col lg:flex-row-reverse gap-20">
-                <img src={chair} class="max-w-sm rounded-lg shadow-2xl flex-1" alt='' />
+            className="hero min-h-screen  mt-0 ">
+            <div className="hero-content flex-col lg:flex-row-reverse gap-20">
+                <img src={chair} className="max-w-sm rounded-lg shadow-2xl flex-1" alt='' />
                 <div className='flex-1 shadow-2xl rounded-box'>
                     <DayPicker
                         mode="single"
